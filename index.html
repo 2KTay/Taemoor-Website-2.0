@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+ 
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Taemoor Hasan </div>
+
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about" onclick="toggleMenu()">About </a></li> <!--about link-->
+                <li><a href="#experience" onclick="toggleMenu()">Experience </a></li> <!--expereince link-->
+                <li><a href="#projects" onclick="toggleMenu()">Projects </a></li> <!--projects link-->
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> <!--contact link-->
+               
+                
+    
+
+            </ul>
+        </div>
+
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Taemoor Hasan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about">About </a></li> <!--about link-->
+                <li><a href="#experience">Experience </a></li> <!--expereince link-->
+                <li><a href="#projects">Projects </a></li> <!--projects link-->
+                <li><a href="#contact">Contact</a></li> <!--contact link-->
+
+    
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/taemoor 2.0 profile pic.png" alt="Taemoor Hasan profile picture" width="300" height="300" />
+
+
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm </p>
+            <h1 class="title">Taemoor Hasan</h1>
+            <p class="purdue_section">Purdue</p>
+            <p class="section_text_p2">Computer Science Undergraduate</p><br><br>
+
+            <p class="resume"> <a href="assets/HasanTaemoorResume.pdf">View Taemoor's Resume</a></p><br>
+
+            <button class="btn" onclick="location.href='./#contact'">
+                Contact Info
+         </button>
+
+        <div id="socials-container">
+            <img src="./assets/white-linkedin-logo.png" 
+            alt="Taemoor's LinkedIn Profile"
+             class="icon" onclick="
+             location.href='https://www.linkedin.com/in/taemoor-hasan-14097b208'"
+             width="35"
+             height="100"/>
+
+            <img src="./assets/black github.png" 
+            alt="Taemoor's Github"
+            class="icon" onclick="
+            location.href='https://github.com/2KTay'"
+            width="35"
+            height="100"/>
+
+        </div>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section_text_p1"> Get to Know More </p>
+        <h1 class="title"> About Me </h1>
+        <div class="section-container">
+            <div class="section_pic-container-alt">
+                <img src="./assets/TaemoorAboutMe.png" alt="profile picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h3>Experience</h3><br>
+                        <p>1+ years <br>Undergraduate Python Machine-Learning Researcher</p><br>
+                        <p>1+ years <br>Web Designer for Shopify</p><br>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/purdue experience.png" alt="Experience icon" class="icon"  />
+                        <p>1+ years <br>Technology Volunteer for NAAAP</p><br>
+                        <p>3+ years <br>Student Ambassador for SportsHi</p><br>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p> My name is Taemoor Hasan, an upcoming sophmore at Purdue Indy pursuing a Computer Science degree.
+                          I have a passion for technology and aim to join a diverse team where I can
+                           master new frameworks and thrive as a software engineer. My skills include 
+                           Python, Java, C++, Shopify, and I have experience in research, web design,
+                            and technology volunteering.</p>
+
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow-white-white-scroll-down-gif.png"
+         alt="Arrow icon"
+         class="icon arrow"
+         onclick="location.href='./#experience'"/>
+        
+
+
+    </section>
+
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title" >Frontend Development</h2>
+                    <div class="article-container">
+                       
+                        <article>
+                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+
+                        <article>
+                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+
+                    
+
+                        
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title" >Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>C++</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>R</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+        <img src="./assets/arrow-white-white-scroll-down-gif.png" 
+        alt="Arrow icon" 
+        class="icon arrow" 
+        onclick="location.href='./#projects'"/>
+    </section>
+
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title"> Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/IUPUI picture.png" alt="project 1" class="project-img" id="iupuipic"/>
+
+                </div>
+                <h2 class="experience-sub-title project-title">Honors</h2>
+                <div class="btn-container">
+                    <p class="resume"> <a href="assets/Honors Math 16500; Calc 1; 5 Honors Projects (1).pdf">Fall 2023</a></p>
+                    <p class="resume"> <a href="assets/Taemoor Hasan Honors Contract Spring 2024 - Made with Clipchamp (2).mp4">Spring 2024</a></p>
+                    <p class="resume"> <a href="https://sites.google.com/iu.edu/taemoorhasanportfolio/home">Spring 2024 pt 2</a></p>
+
+                </div>
+            </div> 
+            
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/masjid picture lahore.png" alt="project 1" class="project-img" id="iupuipic"/>
+
+                </div>
+                <h2 class="experience-sub-title project-title">Github</h2>
+                <div class="btn-container">
+                    <p class="resume"> <a href="https://github.com/2KTay/TaeGymApp-Java-GUI-">Github App</a></p>
+                    
+
+                </div>
+            </div> 
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/mlk jr dc pic.png" alt="project 1" class="project-img" id="iupuipic"/>
+
+                </div>
+                <h2 class="experience-sub-title project-title">Research</h2>
+                <div class="btn-container">
+                    <p class="resume"> <a href="assets/Atomic separation by Salma and Taemoor. 1RIP Project (2).pdf">Atomic Seperation Python Linux</a></p>
+                    
+                </div>
+            </div> 
+        </div>
+        </div>
+        <img src="./assets/arrow-white-white-scroll-down-gif.png"
+         alt="Arrow icon" 
+         class="icon arrow" 
+         onclick="location.href='./#contact'"/>
+
+
+    </section>
+
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-container">
+            <div class="contact-info-item">
+                <img src="./assets/white email icon.png" alt="Email icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:taemoorhasan@gmail.com">Gmail</a></p>
+            </div>
+            <div class="contact-info-item">
+                <img src="./assets/white-linkedin-logo.png" alt="LinkedIn icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/taemoor-hasan-14097b208">LinkedIn</a></p>
+            </div>
+            <div class="contact-info-item">
+                <img src="./assets/icloud mail.png" alt="iCloud Email icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:hasantaemoor@icloud.com">iCloud Email</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about" onclick="toggleMenu()">About </a></li> <!--about link-->
+                    <li><a href="#experience" onclick="toggleMenu()">Experience </a></li> <!--expereince link-->
+                    <li><a href="#projects" onclick="toggleMenu()">Projects </a></li> <!--projects link-->
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> <!--contact link-->
+                   
+                </ul>
+            </div>
+        </nav>
+        <p>2024 Taemoor Hasan </p>
+
+    </footer>
+    
+    
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
