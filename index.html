@@ -6,26 +6,20 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
- 
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Taemoor Hasan </div>
-
+        <div class="logo">Taemoor Hasan</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#about" onclick="toggleMenu()">About </a></li> <!--about link-->
-                <li><a href="#experience" onclick="toggleMenu()">Experience </a></li> <!--expereince link-->
-                <li><a href="#projects" onclick="toggleMenu()">Projects </a></li> <!--projects link-->
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> <!--contact link-->
-               
-                
-    
-
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </ul>
         </div>
-
     </nav>
+
     <nav id="hamburger-nav">
         <div class="logo">Taemoor Hasan</div>
         <div class="hamburger-menu">
@@ -35,144 +29,143 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about">About </a></li> <!--about link-->
-                <li><a href="#experience">Experience </a></li> <!--expereince link-->
-                <li><a href="#projects">Projects </a></li> <!--projects link-->
-                <li><a href="#contact">Contact</a></li> <!--contact link-->
-
-    
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
 
     <section id="profile">
         <div class="section_pic-container">
-            <img src="./assets/taemoor 2.0 profile pic.png" alt="Taemoor Hasan profile picture" width="300" height="300" />
-
-
+            <img src="./assets/taemoor 2.0 profile pic.png"
+                 alt="Taemoor Hasan profile picture"
+                 width="300"
+                 height="300" />
         </div>
-        <div class="section_text">
-            <p class="section_text_p1">Hello, I'm </p>
-            <h1 class="title">Taemoor Hasan</h1>
-            <p class="purdue_section">Purdue</p>
-            <p class="section_text_p2">Computer Science Undergraduate</p><br><br>
 
-            <p class="resume"> <a href="assets/HasanTaemoorResumejan2025.pdf">View Taemoor's Resume</a></p><br>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Taemoor Hasan</h1>
+            <p class="purdue_section">Purdue University, Indianapolis</p>
+            <p class="section_text_p2">Computer Science (B.S.) • AI Certificate • Class of 2027</p>
+            <br><br>
+
+            <!-- Updated resume link -->
+            <p class="resume">
+                <a href="assets/HasanTaemoorResumeOct2025.pdf" target="_blank" rel="noopener noreferrer">
+                    View Resume (Oct 2025)
+                </a>
+            </p>
+            <br>
 
             <button class="btn" onclick="location.href='./#contact'">
                 Contact Info
-         </button>
+            </button>
 
-        <div id="socials-container">
-            <img src="./assets/white-linkedin-logo.png" 
-            alt="Taemoor's LinkedIn Profile"
-             class="icon" onclick="
-             location.href='https://www.linkedin.com/in/taemoor-hasan/'"
-             width="35"
-             height="100"/>
+            <div id="socials-container">
+                <img src="./assets/white-linkedin-logo.png"
+                     alt="Taemoor's LinkedIn Profile"
+                     class="icon"
+                     onclick="location.href='https://www.linkedin.com/in/taemoor-hasan/'"
+                     width="35"
+                     height="100"/>
 
-            <img src="./assets/black github.png" 
-            alt="Taemoor's Github"
-            class="icon" onclick="
-            location.href='https://github.com/2KTay'"
-            width="35"
-            height="100"/>
-
-        </div>
-
+                <img src="./assets/black github.png"
+                     alt="Taemoor's Github"
+                     class="icon"
+                     onclick="location.href='https://github.com/2KTay'"
+                     width="35"
+                     height="100"/>
+            </div>
         </div>
     </section>
 
     <section id="about">
-        <p class="section_text_p1"> Get to Know More </p>
-        <h1 class="title"> About Me </h1>
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section_pic-container-alt">
-                <img src="./assets/TaemoorAboutMe.png" alt="profile picture" class="about-pic"/>
+                <img src="./assets/TaemoorAboutMe.png"
+                     alt="profile picture"
+                     class="about-pic"/>
             </div>
+
             <div class="about-details-container">
                 <div class="about-containers">
+                    <!-- Updated Education block -->
                     <div class="details-container">
-                        <h3>Experience</h3><br>
-                        <p>1+ years <br>Undergraduate Python Machine-Learning Researcher</p><br>
-                        <p>1+ years <br>Web Designer for Shopify</p><br>
+                        <h3>Education</h3>
+                        <br>
+                        <p>Purdue University, School of Science – Indianapolis</p>
+                        <p>B.S. Computer Science, Certificate in AI</p>
+                        <p>GPA: 3.76 • Expected Graduation: May 2027</p>
                     </div>
+
+                    <!-- Updated Experience highlights -->
                     <div class="details-container">
-                        <img src="./assets/purdue experience.png" alt="Experience icon" class="icon"  />
-                        <p>1+ years <br>Technology Volunteer for NAAAP</p><br>
-                        <p>2+ years <br>Student Ambassador for SportsHi</p><br>
+                        <h3>Current & Recent Roles</h3>
+                        <br>
+                        <p>Data Scientist Researcher – Rolls-Royce (Purdue Data Mine)</p>
+                        <p>Data Engineering Researcher – Elevance Health</p>
+                        <p>Software Engineering Intern – Interlinked & Moblize.it</p>
+                        <p>Big Data Analyst Intern – Living Stones Foundation</p>
                     </div>
                 </div>
-                <div class="text-container">
-                    <p> My name is Taemoor Hasan, an upcoming sophmore at Purdue Indy pursuing a Computer Science degree.
-                          I have a passion for technology and aim to join a diverse team where I can
-                           master new frameworks and thrive as a software engineer. My skills include 
-                           Python, Java, C++, Shopify, and I have experience in research, web design,
-                            and technology volunteering.</p>
 
+                <!-- Updated About text with new skills/areas -->
+                <div class="text-container">
+                    <p>
+                        I'm a junior Computer Science student at Purdue University in Indianapolis,
+                        focusing on software engineering, data science, and AI. I work on real-world
+                        projects through the Purdue Data Mine and internships, from engine test
+                        analytics with Rolls-Royce to cybersecurity-focused data engineering at
+                        Elevance Health.
+                    </p>
+                    <br>
+                    <p>
+                        My toolbox includes Python (Pandas, TensorFlow, PyTorch), Java, C++, SQL, R,
+                        JavaScript/React, and HTML/CSS, along with experience in Splunk, Power BI,
+                        Tableau, and cloud platforms like AWS and GCP. I enjoy building systems that
+                        are both technically solid and genuinely useful to people.
+                    </p>
                 </div>
             </div>
         </div>
+
         <img src="./assets/arrow-white-white-scroll-down-gif.png"
-         alt="Arrow icon"
-         class="icon arrow"
-         onclick="location.href='./#experience'"/>
-        
-
-
+             alt="Arrow icon"
+             class="icon arrow"
+             onclick="location.href='./#experience'"/>
     </section>
 
     <section id="experience">
         <p class="section_text_p1">Explore My</p>
         <h1 class="title">Experience</h1>
+
         <div class="experience-details-container">
             <div class="about-containers">
+                <!-- Software Engineering / Frontend-Backend -->
                 <div class="details-container">
-                    <h2 class="experience-sub-title" >Frontend Development</h2>
-                    <div class="article-container">
-                       
-                        <article>
-                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-
-                        <article>
-                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>CSS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-
-
-                        <article>
-                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
-                            <div>
-                                <h3>JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-
-
-                    
-
-                        
-                        
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title" >Backend Development</h2>
+                    <h2 class="experience-sub-title">Software Engineering</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
                             <div>
-                                <h3>Python</h3>
+                                <h3>React.js & JavaScript</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
+
+                        <article>
+                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>HTML & CSS / Tailwind</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
                         <article>
                             <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
                             <div>
@@ -180,6 +173,7 @@
                                 <p>Experienced</p>
                             </div>
                         </article>
+
                         <article>
                             <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
                             <div>
@@ -187,77 +181,135 @@
                                 <p>Intermediate</p>
                             </div>
                         </article>
+                    </div>
+                </div>
+
+                <!-- Data / ML / Cloud -->
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Data, ML & Cloud</h2>
+                    <div class="article-container">
                         <article>
                             <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
                             <div>
-                                <h3>R</h3>
+                                <h3>Python, Pandas & Visualization</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>TensorFlow & PyTorch</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
-                        
+
+                        <article>
+                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>SQL & R</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Splunk, Power BI, Tableau</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/white checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>AWS & Google Cloud Platform</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
                     </div>
                 </div>
-                
-
             </div>
         </div>
-        <img src="./assets/arrow-white-white-scroll-down-gif.png" 
-        alt="Arrow icon" 
-        class="icon arrow" 
-        onclick="location.href='./#projects'"/>
+
+        <img src="./assets/arrow-white-white-scroll-down-gif.png"
+             alt="Arrow icon"
+             class="icon arrow"
+             onclick="location.href='./#projects'"/>
     </section>
 
     <section id="projects">
         <p class="section_text_p1">Browse My Recent</p>
-        <h1 class="title"> Projects</h1>
+        <h1 class="title">Projects</h1>
         <div class="experience-details-container">
             <div class="about-containers">
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/IUPUI picture.png" alt="project 1" class="project-img" id="iupuipic"/>
-
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/IUPUI picture.png"
+                             alt="Honors projects"
+                             class="project-img"
+                             id="iupuipic"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Honors</h2>
+                    <div class="btn-container">
+                        <p class="resume">
+                            <a href="assets/Honors Math 16500; Calc 1; 5 Honors Projects (1).pdf">
+                                Fall 2023
+                            </a>
+                        </p>
+                        <p class="resume">
+                            <a href="assets/Taemoor Hasan Honors Contract Spring 2024 - Made with Clipchamp (2).mp4">
+                                Spring 2024
+                            </a>
+                        </p>
+                        <p class="resume">
+                            <a href="https://sites.google.com/iu.edu/taemoorhasanportfolio/home">
+                                Spring 2024 pt 2
+                            </a>
+                        </p>
+                    </div>
                 </div>
-                <h2 class="experience-sub-title project-title">Honors</h2>
-                <div class="btn-container">
-                    <p class="resume"> <a href="assets/Honors Math 16500; Calc 1; 5 Honors Projects (1).pdf">Fall 2023</a></p>
-                    <p class="resume"> <a href="assets/Taemoor Hasan Honors Contract Spring 2024 - Made with Clipchamp (2).mp4">Spring 2024</a></p>
-                    <p class="resume"> <a href="https://sites.google.com/iu.edu/taemoorhasanportfolio/home">Spring 2024 pt 2</a></p>
 
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/masjid picture lahore.png"
+                             alt="Github project"
+                             class="project-img"
+                             id="iupuipic"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Github</h2>
+                    <div class="btn-container">
+                        <p class="resume">
+                            <a href="https://github.com/2KTay/TaeGymApp-Java-GUI-">
+                                Gym App (Java GUI)
+                            </a>
+                        </p>
+                    </div>
                 </div>
-            </div> 
-            
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/masjid picture lahore.png" alt="project 1" class="project-img" id="iupuipic"/>
 
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/mlk jr dc pic.png"
+                             alt="Research project"
+                             class="project-img"
+                             id="iupuipic"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">Research</h2>
+                    <div class="btn-container">
+                        <p class="resume">
+                            <a href="assets/Atomic separation by Salma and Taemoor. 1RIP Project (2).pdf">
+                                Atomic Separation – Python / Linux Essay
+                            </a>
+                        </p>
+                    </div>
                 </div>
-                <h2 class="experience-sub-title project-title">Github</h2>
-                <div class="btn-container">
-                    <p class="resume"> <a href="https://github.com/2KTay/TaeGymApp-Java-GUI-">Github App</a></p>
-                    
-
-                </div>
-            </div> 
-
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/mlk jr dc pic.png" alt="project 1" class="project-img" id="iupuipic"/>
-
-                </div>
-                <h2 class="experience-sub-title project-title">Research</h2>
-                <div class="btn-container">
-                    <p class="resume"> <a href="assets/Atomic separation by Salma and Taemoor. 1RIP Project (2).pdf">Atomic Seperation Python Linux Essay</a></p>
-                    
-                </div>
-            </div> 
+            </div>
         </div>
-        </div>
+
         <img src="./assets/arrow-white-white-scroll-down-gif.png"
-         alt="Arrow icon" 
-         class="icon arrow" 
-         onclick="location.href='./#contact'"/>
-
-
+             alt="Arrow icon"
+             class="icon arrow"
+             onclick="location.href='./#contact'"/>
     </section>
 
     <section id="contact">
@@ -265,15 +317,21 @@
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-container">
             <div class="contact-info-item">
-                <img src="./assets/white email icon.png" alt="Email icon" class="icon contact-icon email-icon"/>
-                <p><a href="mailto:taemoorhasan@gmail.com">Gmail</a></p>
+                <img src="./assets/white email icon.png"
+                     alt="Email icon"
+                     class="icon contact-icon email-icon"/>
+                <p><a href="mailto:hasantaemoor@icloud.com">hasantaemoor@icloud.com</a></p>
             </div>
             <div class="contact-info-item">
-                <img src="./assets/white-linkedin-logo.png" alt="LinkedIn icon" class="icon contact-icon"/>
+                <img src="./assets/white-linkedin-logo.png"
+                     alt="LinkedIn icon"
+                     class="icon contact-icon"/>
                 <p><a href="https://www.linkedin.com/in/taemoor-hasan/">LinkedIn</a></p>
             </div>
             <div class="contact-info-item">
-                <img src="./assets/icloud mail.png" alt="iCloud Email icon" class="icon contact-icon email-icon"/>
+                <img src="./assets/icloud mail.png"
+                     alt="iCloud Email icon"
+                     class="icon contact-icon email-icon"/>
                 <p><a href="mailto:hasantaemoor@icloud.com">iCloud Email</a></p>
             </div>
         </div>
@@ -283,22 +341,16 @@
         <nav>
             <div class="nav-links-container">
                 <ul class="nav-links">
-                    <li><a href="#about" onclick="toggleMenu()">About </a></li> <!--about link-->
-                    <li><a href="#experience" onclick="toggleMenu()">Experience </a></li> <!--expereince link-->
-                    <li><a href="#projects" onclick="toggleMenu()">Projects </a></li> <!--projects link-->
-                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> <!--contact link-->
-                   
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
                 </ul>
             </div>
         </nav>
-        <p>2024 Taemoor Hasan </p>
-
+        <p>2025 Taemoor Hasan</p>
     </footer>
-    
-    
 
     <script src="script.js"></script>
-
-
 </body>
 </html>
