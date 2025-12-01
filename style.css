@@ -311,6 +311,7 @@ section{
 }
 
 .details-container {
+    height: auto !important;
     flex: 1;
     padding: 1.5rem;
     background: black;
@@ -379,6 +380,7 @@ h2{
 }
 
 .article-container{
+    height: auto !important;
     display:flex;
     text-align: initial;
     flex-wrap: wrap;
