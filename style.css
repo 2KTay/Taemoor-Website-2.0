@@ -431,9 +431,10 @@ article .icon{
 }
 
 .project-img{
-    border-radius: 2rem;
     width: 90%;
-    height: 90%;
+    height: 500px;        /* Make all images the same height */
+    object-fit: cover;     /* Prevent stretching — crop instead */
+    border-radius: 2rem;
 }
 
 .project-title{
