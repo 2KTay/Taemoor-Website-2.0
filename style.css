@@ -447,6 +447,19 @@ article .icon{
     border-color: rgb(163,163,163);
 }
 
+/* Center the project cards under the "Projects" title */
+#projects .experience-details-container {
+    align-items: center;   /* centers the inner flex row vertically in this column layout */
+}
+
+#projects .about-containers {
+    display: flex;
+    justify-content: center;  /* horizontally center the three cards */
+    gap: 2rem;                /* keep some space between cards */
+    width: 100%;
+}
+
+
 
 
 /*contact*/
