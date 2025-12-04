@@ -308,6 +308,7 @@ section{
 .about-containers {
     display: flex;
     gap: 2rem;
+    margin-bottom: 2rem; /* add this */
 }
 
 .details-container {
