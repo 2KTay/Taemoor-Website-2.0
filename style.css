@@ -181,8 +181,9 @@ this is for mobile */
 /* SECTIONS PROFILE*/
 section{
     padding-top: 4vh;
-    min-height: 96vh; /*note*/
-    height: auto;   /*note*/
+   /* min-height: 96vh; /*note*/
+   /* height: auto;   /*note*/
+    height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height:fit-content;
